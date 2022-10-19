@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM vijay-docker:hadoop1-multinode4
 LABEL MAINTAINER="vijay"
 WORKDIR /usr/local
 ADD http://archive.apache.org/dist/sqoop/1.4.5/sqoop-1.4.5.tar.gz .
